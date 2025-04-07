@@ -1,7 +1,4 @@
-import spacy
 import re
-
-nlp = spacy.load("en_core_web_sm")
 
 QUANTITY_PATTERN = re.compile(r"(\d+(\.\d+)?)(\s?(kg|hg|g|lb|oz|l|ml|cl|pz|pack))", re.IGNORECASE)
 

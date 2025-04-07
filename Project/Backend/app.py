@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from extractor import extract_quantity
+import uvicorn
+
 app = FastAPI()
 
 @app.post("/analyze/")
@@ -8,4 +10,5 @@ async def analyze_transaction(transaction: dict):
     quantities = extract_quantity(text)
     return {"quantities": quantities}
 
-# Start the server: uvicorn api:app --reload
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
