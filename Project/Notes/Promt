@@ -1,48 +1,63 @@
-IntelliBank: Analisi Intelligente delle Spese
+IntelliBank: Analisi Intelligente delle Spese con Privacy Blockchain
 
 Descrizione:
 
-IntelliBank è un'applicazione avanzata per il monitoraggio e l'analisi delle spese personali, progettata per integrarsi
-con i sistemi bancari e offrire agli utenti una panoramica dettagliata delle proprie abitudini di consumo.
-Grazie all’utilizzo dell’intelligenza artificiale, l’app non solo categorizza le spese in macro-aree come shopping,
-viaggi o alimentari, ma le suddivide in sotto-categorie specifiche per un livello di dettaglio senza precedenti.
+IntelliBank è un'applicazione avanzata per il monitoraggio e l'analisi delle spese personali, progettata per integrarsi con i sistemi bancari senza compromettere la privacy degli utenti.
+Grazie all’intelligenza artificiale e alla blockchain ibrida (on-chain/off-chain), l’app offre:
+Dettagli degli acquisti visibili solo all’utente: Le banche vedono solo l’importo e il destinatario, non i prodotti specifici.
+Categorizzazione avanzata: Suddivisione delle spese in macro-aree (shopping, viaggi) e sotto-categorie (es. "kg di pasta", "biglietti aerei").
 
-Ad esempio:
+Esempi di analisi protetta da blockchain:
 
-Per la categoria "Supermercato", IntelliBank analizzerà gli acquisti e fornirà un report dettagliato su quantità e
-tipologie di prodotti comprati, come kg di pasta, litri di latte, numero di confezioni di biscotti.
+🛒 Supermercato:
+    Dati crittografati off-chain: "2kg di pasta Barilla, 1L di latte Parmalat".
+    Dati on-chain per la banca: "Pagamento a Esselunga - 15€".
 
-Per la categoria "Viaggi", l’app distinguerà le spese per biglietti aerei, pullam, treni, benzina, diesel, pedaggi, taxi
-e altro ancora.
+✈️ Viaggi:
+Dati crittografati: "Biglietto treno Frecciarossa Milano-Roma".
+Dati condivisi con la banca: "Transazione a Trenitalia - 50€".
 
-Funzionalità principali:
+Funzionalità Principali
 
-- Analisi avanzata delle spese – Suddivisione dettagliata per tipologia di acquisto.
-- Riconoscimento intelligente degli scontrini – OCR per categorizzazione automatizzata.
-- Report personalizzati e grafici interattivi – Visualizzazione chiara delle abitudini di spesa.
-- Suggerimenti AI per ottimizzazione finanziaria – Consigli per risparmiare e gestire il budget.
-- Integrazione con i sistemi bancari – Sincronizzazione in tempo reale con i conti bancari.
+Analisi delle spese con privacy:
 
-Tecnologie utilizzate:
+Dettagli degli acquisti crittografati e archiviati su IPFS (off-chain).
+Hash delle transazioni registrati su blockchain privata (Hyperledger Fabric) per tracciabilità.
+OCR intelligente per scontrini: Estrazione dati con Tesseract, poi crittografati.
+Dashboard utente: Accesso ai dettagli solo tramite chiave privata personale.
+Integrazione bancaria sicura: Le banche ricevono solo importi e mittenti/destinatari.
 
-- Backend: Python, Django/Flask, TensorFlow/PyTorch
-- Frontend: JavaScript, React.js
-- Database: PostgreSQL/MongoDB
-- Strumenti AI: OCR (Tesseract), Pandas, NumPy
-- Sicurezza: Firebase/Auth0 per autenticazione e protezione dati
+Tecnologie Utilizzate
+Area	Tecnologie	Ruolo nella Privacy
+Backend	Python, Flask	Gestione crittografia end-to-end.
+Blockchain	Hyperledger Fabric	Registro immutabile per hash transazioni.
+Storage	IPFS + PostgreSQL	Dettagli acquisti off-chain criptati.
+AI	TensorFlow, Tesseract OCR	Analisi dati senza esposizione a terzi.
+Sicurezza	AES-256, Auth0	Autenticazione e protezione dati.
 
-Fasi di sviluppo:
+Fasi di Sviluppo
+Setup iniziale: Configurazione ambiente e blockchain privata.
+Integrazione API bancarie: Collegamento sicuro con selective disclosure (solo dati necessari).
+Sviluppo AI + Crittografia: Modelli ML per categorizzazione + pipeline di cifratura dati.
+Interfaccia utente: Dashboard React con accesso ai dettagli via chiave privata.
+Test: Verifica compliance GDPR e resistenza ad attacchi.
+Deployment: Hosting su AWS con container Docker.
 
-1️⃣ Setup iniziale – Creazione repository, configurazione ambiente, installazione framework.
-2️⃣ Integrazione API bancarie – Connessione ai servizi, autenticazione, normalizzazione dati.
-3️⃣ Sviluppo AI – Creazione dataset, machine learning per classificazione spese, riconoscimento scontrini.
-4️⃣ Interfaccia utente – UX/UI design, sviluppo frontend con React.js, dashboard interattiva.
-5️⃣ Test & Ottimizzazione – Debugging, miglioramento AI, performance tuning.
-6️⃣ Deployment & Manutenzione – Hosting su cloud (AWS, Google Cloud), containerizzazione con Docker, aggiornamenti periodici.
+Vantaggi per l’Utente
+✅ Controllo totale: Decidi chi può vedere cosa hai comprato.
+✅ Nessuna profilazione bancaria: Le banche non accedono alle tue abitudini specifiche.
+✅ Suggerimenti personalizzati: L’AI analizza i dati sul tuo dispositivo (edge computing).
 
-Benefici per l’utente:
+Problemi Risolti dalla Blockchain Off-Chain
+Problema Tradizionale	Soluzione IntelliBank
+Banche vedono tutto (dove + cosa)	Dettagli crittografati off-chain, solo hash su blockchain.
+Dati centralizzati a rischio hack	Archiviazione decentralizzata (IPFS).
+Compliance con leggi privacy	Selective disclosure per autorità regolatorie.
+Perché scegliere IntelliBank?
 
-IntelliBank aiuta gli utenti a comprendere nel dettaglio come spendono il loro denaro, offrendo insight utili per
-migliorare la gestione finanziaria e rendere le scelte economiche più consapevoli. Con il supporto dell’intelligenza
-artificiale, l’utente riceve suggerimenti personalizzati per ottimizzare le spese, risparmiare e pianificare meglio il
-proprio budget.
+"Con la nostra architettura ibrida, otteniamo la potenza dell’AI senza sacrificare la privacy. Le banche vedono solo ciò che serve, tu controlli il resto."
+
+
+POSSIBILI IMPLEMENTAZIONI
+vorrei capire se è possibile anche fare una sezione sconti, per vedere quanto abbia tolto dal totale
+quindi se per esempio un utente ha speso 500 euro in un mese invece di 510 grazie a uno sconto, deve riuscire a vederlo

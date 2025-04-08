@@ -3,8 +3,8 @@ import psycopg2
 from psycopg2 import OperationalError
 from dotenv import load_dotenv
 
+#sudo systemctl stop postgresql
 load_dotenv()
-
 
 def save_transaction():
     try:

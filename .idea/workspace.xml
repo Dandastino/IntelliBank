@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67fad974-44e8-4320-8bb8-559659a86580" name="Changes" comment="I have tried to integrate Docker, everything is working but the database connection :(">
       <change afterPath="$PROJECT_DIR$/Project/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Backend/app.py" afterDir="false" />
@@ -104,7 +103,7 @@
       <workItem from="1743711122609" duration="7952000" />
       <workItem from="1743850117118" duration="16492000" />
       <workItem from="1744040005902" duration="10628000" />
-      <workItem from="1744125085077" duration="7460000" />
+      <workItem from="1744125085077" duration="7859000" />
     </task>
     <task id="LOCAL-00001" summary="Just the firt version of the notes">
       <option name="closed" value="true" />
@@ -130,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744050171396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I have tried to integrate Docker, everything is working but the database connection :(">
+      <option name="closed" value="true" />
+      <created>1744133191821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744133191821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
