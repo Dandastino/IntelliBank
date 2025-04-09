@@ -58,6 +58,20 @@ Perché scegliere IntelliBank?
 "Con la nostra architettura ibrida, otteniamo la potenza dell’AI senza sacrificare la privacy. Le banche vedono solo ciò che serve, tu controlli il resto."
 
 
-POSSIBILI IMPLEMENTAZIONI
-vorrei capire se è possibile anche fare una sezione sconti, per vedere quanto abbia tolto dal totale
-quindi se per esempio un utente ha speso 500 euro in un mese invece di 510 grazie a uno sconto, deve riuscire a vederlo
+🧾 Rilevamento automatico sconti da scontrini
+Grazie all’integrazione avanzata con OCR e NLP, IntelliBank rileva in automatico tutti gli sconti applicati sugli acquisti. Lo fa analizzando il contenuto testuale degli scontrini tramite Tesseract e modelli personalizzati di parsing.
+
+Nessun inserimento manuale richiesto.
+
+Rileva voci come “SCONTO”, “OFFERTA”, “PROMO”, “CARD”, ecc.
+
+Calcola la differenza tra prezzo pieno e finale per stimare il risparmio totale.
+
+I dettagli dei risparmi sono crittografati e archiviati off-chain su IPFS, consultabili solo dall’utente.
+
+📊 La dashboard include ora:
+Sezione "Risparmi Mensili"
+
+Storico degli sconti per negozio o categoria
+
+Confronto mese su mese del risparmiopio un utente ha speso 500 euro in un mese invece di 510 grazie a uno sconto, deve riuscire a vederlo

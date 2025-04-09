@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67fad974-44e8-4320-8bb8-559659a86580" name="Changes" comment="I have tried to integrate Docker, everything is working but the database connection :(" />
+    <list default="true" id="67fad974-44e8-4320-8bb8-559659a86580" name="Changes" comment="everything is working now and i'm ready to start :)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Backend/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Backend/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Notes/Promt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Notes/Promt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,10 +78,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Project" />
       <recent name="$PROJECT_DIR$/Project/Frontend" />
       <recent name="$PROJECT_DIR$/Project/Backend" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,6 +104,7 @@
       <workItem from="1743850117118" duration="16492000" />
       <workItem from="1744040005902" duration="10628000" />
       <workItem from="1744125085077" duration="7963000" />
+      <workItem from="1744133309210" duration="10197000" />
     </task>
     <task id="LOCAL-00001" summary="Just the firt version of the notes">
       <option name="closed" value="true" />
@@ -137,7 +146,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744133198023</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="everything is working now and i'm ready to start :)">
+      <option name="closed" value="true" />
+      <created>1744133422628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744133422628</updated>
+    </task>
+    <task id="LOCAL-00007" summary="everything is working now and i'm ready to start :)">
+      <option name="closed" value="true" />
+      <created>1744133482538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744133482538</updated>
+    </task>
+    <task id="LOCAL-00008" summary="everything is working now and i'm ready to start :)">
+      <option name="closed" value="true" />
+      <created>1744133522519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744133522519</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,12 +191,13 @@
     <MESSAGE value="Just the firt version of the notes" />
     <MESSAGE value="Start version, with the databse, the connection and first intruductive functions" />
     <MESSAGE value="I have tried to integrate Docker, everything is working but the database connection :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have tried to integrate Docker, everything is working but the database connection :(" />
+    <MESSAGE value="everything is working now and i'm ready to start :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is working now and i'm ready to start :)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntelliBank$extractor.coverage" NAME="extractor Coverage Results" MODIFIED="1744045142204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Backend" />
     <SUITE FILE_PATH="coverage/IntelliBank$app.coverage" NAME="app Coverage Results" MODIFIED="1744126641348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Backend" />
     <SUITE FILE_PATH="coverage/IntelliBank$.coverage" NAME=" Coverage Results" MODIFIED="1743933265448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Backend" />
-    <SUITE FILE_PATH="coverage/IntelliBank$database.coverage" NAME="database Coverage Results" MODIFIED="1744126609678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Backend" />
+    <SUITE FILE_PATH="coverage/IntelliBank$database.coverage" NAME="database Coverage Results" MODIFIED="1744192455384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Backend" />
   </component>
 </project>

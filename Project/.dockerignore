@@ -21,3 +21,5 @@ venv/
 
 Notes
 .gitignore
+
+db.sql
