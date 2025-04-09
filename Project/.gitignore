@@ -28,7 +28,7 @@ Thumbs.db
 # Docker
 *.pid
 
-Notes
+.Notes/
 .dockerignore
 
 db.sql
