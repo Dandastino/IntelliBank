@@ -2,7 +2,6 @@
 node_modules
 npm-debug.log
 yarn-error.log
-.env
 
 # Python
 __pycache__
@@ -22,4 +21,4 @@ venv/
 Notes
 .gitignore
 
-db.sql
+.env
